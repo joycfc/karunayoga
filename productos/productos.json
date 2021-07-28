@@ -2,72 +2,73 @@
 
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 1",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "001"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 2",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "002"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 3",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "003"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 4",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "004"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 5",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "005"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 6",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "006"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 7",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "007"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 8",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "008"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 9",
+        "precio": "$1000.00",
         "id": "009"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 10",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "010"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 11",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "011"
     },
     {
         "imagen": "ARCHIVOS/prueba.png",
         "titulo": "producto 12",
-        "precio": "1000$",
+        "precio": "$1000.00",
         "id": "012"
     }
 ]
