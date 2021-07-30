@@ -14,6 +14,31 @@ BASE
 html {
   font-size: 9px; }
 
+.navbar {
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  z-index: 5;
+  margin: 0;
+  padding: 0; }
+  .navbar__logo {
+    height: 7em; }
+  .navbar__links {
+    list-style: none;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 0.3ms; }
+    .navbar__links a {
+      text-decoration: none; }
+
 .cardProductos {
   height: auto;
   width: 23em;
@@ -56,3 +81,74 @@ html {
     border: solid lightgreen 1px; }
     .cardProductos__btn:hover {
       color: gold; }
+
+/*============slider============*/
+.slider {
+  width: 100%;
+  position: relative; }
+  .slider__hero {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden; }
+  .slider__txt {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    z-index: 1;
+    margin: 6rem 6rem;
+    flex-wrap: wrap; }
+  .slider__titulo {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-family: 'Josefin Sans', sans-serif; }
+  .slider__info {
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif; }
+  .slider__paginas {
+    position: absolute;
+    top: 90%;
+    display: flex;
+    width: 100%;
+    justify-content: center; }
+
+.paginas,
+li {
+  font-size: 15px;
+  margin: 2px 5px;
+  color: gray; }
+
+.izquierda,
+.derecha {
+  position: absolute;
+  top: 0;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+  z-index: 2; }
+
+.izquierda {
+  left: 10px; }
+
+.derecha {
+  right: 10px; }
+
+.fas {
+  cursor: pointer; }
+
+.sticky {
+  padding: 20px 20px;
+  height: 5%;
+  background-color: purple; }
