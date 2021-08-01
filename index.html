@@ -25,76 +25,88 @@
 </head>
 
 <body>
-<header>
-    <nav class="navbar">
-
-    </nav>
-</header>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__content">
+                <div>
+                    <a href="#"><img src="./images/karuna negro-01.svg" alt="" class="navbar__logoW"></a>
+                </div>
+                <div>
+                    <ul class="navbar__list">
+                        <div class="navbar__cancel">
+                            <i class="icon far fa-times-circle"></i>
+                        </div>
+                        <li class="navbar__li"> <a href="#" class="navbar__link">Home</a></li>
+                        <li class="navbar__li"> <a href="#" class="navbar__link">Productos</a></li>
+                        <li class="navbar__li"> <a href="#" class="navbar__link">Nosotros</a></li>
+                        <li class="navbar__li"> <a href="#" class="navbar__link">Contactos</a></li>
+                    </ul>
+                    <div class="navbar__bars">
+                        <i class="icon fas fa-bars"></i>
+                    </div>
+                </div>
+                <div>
+                    <span><a href="#"><i class="icon fas fa-shopping-cart"></i></a></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="banner">
+    </div>
     <div class="slider">
         <ul class="slider__ul">
             <li class="slider__li">
                 <img src="./images/hero1.jpg" alt="montaña" class="slider__hero">
                 <section class="slider__txt">
-                    <h1 class="slider__titulo">Armonía</h1>
-                    <p class="slider__info">“La vida sólo es soportable cuando el cuerpo y el alma viven en perfecta armonía, existe un
+                    <h1 class="tituloGB">Armonía</h1>
+                    <p class="Subinfo">“La vida sólo es soportable cuando el cuerpo y el alma viven en perfecta armonía,
+                        existe un
                         equilibrio natural entre ambos y se respetan recíprocamente.”</p>
+                    <a href="#" class="btnNegro">
+                        <p class="btnNegro__txt">Nuestros Productos</p>
+                    </a>
                 </section>
             </li>
             <li class="slider__li">
                 <img src="./images/hero2.jpg" alt="lago" class="slider__hero">
                 <section class="slider__txt">
-                    <h1 class="slider__titulo">Espiritualidad</h1>
-                    <p class="slider__info">“Despertarse es la espiritualidad, porque sólo despiertos podemos entrar en la verdad y la
+                    <h1 class="tituloGB">Espiritualidad</h1>
+                    <p class="Subinfo">“Despertarse es la espiritualidad, porque sólo despiertos podemos entrar en la
+                        verdad y la
                         libertad.”</p>
+                        <a href="#" class="btnNegro">
+                            <p class="btnNegro__txt">Nuestros Productos</p>
+                        </a>
                 </section>
             </li>
             <li class="slider__li">
                 <img src="./images/hero3.jpg" alt="playa" class="slider__hero">
                 <section class="slider__txt">
-                    <h1 class="slider__titulo">Alegría</h1>
-                    <p class="slider__info">“todo lugar es aquí y todo momento es ahora”</p>
+                    <h1 class="tituloGB">Alegría</h1>
+                    <p class="Subinfo">“todo lugar es aquí y todo momento es ahora”</p>
+                    <a href="#" class="btnNegro">
+                        <p class="btnNegro__txt">Nuestros Productos</p>
+                    </a>
                 </section>
             </li>
         </ul>
         <ol class="slider__paginas">
-
+            
         </ol>
         <div class="izquierda">
-            <span><i class="fas fa-chevron-left"></i></span>
+            <span><i class="icon fas fa-chevron-left"></i></span>
         </div>
         <div class="derecha">
-            <span><i class="fas fa-chevron-right"></i></span>
+            <span><i class="icon fas fa-chevron-right"></i></span>
         </div>
     </div>
 
 
     </div>
 
+    <section id="nuestorProductos" class="contenedorG">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section id="nuestorProductos">
-
-        <!-- <div class="cardProductos">
+        <div class="cardProductos">
 
             <img src="/images/prueba.png" alt="" class="cardProductos__imagen">
             <div class="cardProductos__txt">
@@ -103,7 +115,7 @@
                 <p class="cardProductos__precio">$3000.00</p>
                 <span><i class="fas fa-plus-circle cardProductos__btn"></i></span>
             </div>
- -->
+
 
 
 
@@ -126,7 +138,46 @@
 
 
 
+<footer>
+    <div>
+        <a href="#"><img src="./images/karuna blanco-01.svg" alt="" class="logoB"></a>
+    </div>
 
+    <div class="social">
+
+        <a href="https://www.instagram.com/" target="_blank" class="social__btn">
+            <div class="social__icon">
+                <i class="fab fa-instagram social__logo"></i>
+            </div>
+        </a>
+
+        <a href="https://www.facebook.com/" target="_blank" class="social__btn">
+            <div class="social__icon">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="social__btn">
+            <div class="social__icon">
+                <i class="fab fa-twitter"></i>
+            </div>
+        </a>
+        <a href="https://www.linkedin.com/in/joaocfc/" target="_blank" class="social__btn">
+            <div class="social__icon">
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </a>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © 2021 Todos los derechos reservados. Se prohíbe de reproducción total o parcial, así como
+            su traducción a cualquier idioma sin la autorización escrita del titular.
+
+        </p>
+        <p>Desarrollo y Diseño Joao Franco</p>
+        <p>Versión 1.0</p>
+
+    </div>
+</footer>
 
 
 
@@ -138,6 +189,7 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!--SCRIPT JAVASCRIPT-->
     <script src="js/main.js"></script>
+    <script src="./js/navbar.js"></script>
     <script src="./js/slider.js"></script>
     <script src="js/productos.js"></script>
 
