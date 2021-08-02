@@ -276,7 +276,8 @@ ol {
   height: 100vh;
   display: flex; }
   .sliderJ__ul {
-    width: 100%; }
+    width: 100%;
+    padding: 0; }
   .sliderJ__hero {
     height: 100vh;
     width: 100%;

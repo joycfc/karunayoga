@@ -32,9 +32,10 @@ items.addEventListener("click", (e) => {
 
 // FUNCIONES
 
+//FUNCION QUE TRAE LOS ELEMENTOS DEL ARCHIVO JSON
 const fetchData = async () => {
     try {
-        const respuesta = await fetch("/productos/productos.json");
+        const respuesta = await fetch("./../productos/productos.json");
         const data = await respuesta.json();
         console.log(data);
 
@@ -70,6 +71,7 @@ const carritoAdd = (e) => {
     e.stopPropagation();
 };
 
+
 const setCarrito = (objeto) => {
     console.log(objeto);
     const item = {
@@ -93,7 +95,7 @@ const pintarCarrito = () => {
     // limpiar el html para no repetir los elementos
     items.innerHTML = "";
 
-    // pintamos los productos selecconados en el carrito
+    // pintamos los productos seleccionados en el carrito
     Object.values(carrito).forEach((producto) => {
         templateCarrito.querySelector("th ").textContent = producto.id;
         templateCarrito.querySelectorAll("td ")[0].textContent = producto.titulo;
@@ -113,6 +115,7 @@ const pintarCarrito = () => {
     // guardamos los elementos en el LOCAlstorage
     localStorage.setItem('carrito', JSON.stringify(carrito));
 };
+// PINTAMOS LOS ELEMENTOS SELECCIONADOS EN EL FOOTER DEL TOTAL DE COMPRA
 
 const pintarFooter = () => {
     footer.innerHTML = "";
@@ -123,6 +126,8 @@ const pintarFooter = () => {
     `;
         return;
     }
+    // SE VAN SUMANDO LOS TOTALES
+
     const nCantidad = Object.values(carrito).reduce(
         (acumulador, {
             cantidad

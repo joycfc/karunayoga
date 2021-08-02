@@ -1,6 +1,6 @@
 // productos 
 
-let jsonLocal = 'productos/datos.json';
+let jsonLocal = './../productos/datos.json';
 
 $.getJSON(jsonLocal, function (data, status) {
 
