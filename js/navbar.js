@@ -1,13 +1,13 @@
 // variables para los botones del menu
-const navBar =document.querySelector(".navbar");
+const navBar = document.querySelector(".navbarF");
 
-const menu = document.querySelector(".navbar__list");
+const menu = document.querySelector(".navbarF__list");
 
-const menuBtn = document.querySelector(".navbar__bars");
+const menuBtn = document.querySelector(".navbarF__bars");
 
-const cancelBtn = document.querySelector(".navbar__cancel");
+const cancelBtn = document.querySelector(".navbarF__cancel");
 
-// activa el menu Huamburguesa
+// activa el menu Hamburguesa
 menuBtn.onclick = ()=>{
     menu.classList.add("activo");
     menuBtn.classList.add("hide");

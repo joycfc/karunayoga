@@ -18,26 +18,26 @@ ul {
 ol {
   list-style: none; }
 
-.navbar {
+.navbarF {
   position: fixed;
   z-index: 5;
   width: 100%;
   padding: 1rem 0rem;
   transition: all 0.4s ease;
   top: 0; }
-  .navbar__content {
+  .navbarF__content {
     max-width: 1250px;
     margin: auto;
     padding: 0rem 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between; }
-  .navbar__logoW {
+  .navbarF__logoW {
     height: 5em; }
-  .navbar__list {
+  .navbarF__list {
     list-style: none;
     display: inline-flex; }
-  .navbar__link {
+  .navbarF__link {
     text-decoration: none;
     overflow: hidden;
     color: black;
@@ -47,11 +47,11 @@ ol {
     padding: 0.5rem;
     margin-left: 0.5rem;
     transition: all 0.3s; }
-    .navbar__link:hover {
+    .navbarF__link:hover {
       color: orangered; }
-  .navbar__bars {
+  .navbarF__bars {
     display: none; }
-  .navbar__cancel {
+  .navbarF__cancel {
     display: none; }
 
 .sticky {
@@ -59,8 +59,34 @@ ol {
   background-color: white;
   box-shadow: 0px 0px 24px -5px rgba(0, 0, 0, 0.78); }
 
+.submenu {
+  position: relative; }
+
+.submenu #carrito {
+  display: none;
+  transition: all 0.3s ease;
+  top: -100%; }
+
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 400px; }
+
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white; }
+
 @media (max-width: 900px) {
-  .navbar__list {
+  .navbarF__list {
     position: fixed;
     top: 0;
     left: -100%;
@@ -72,33 +98,34 @@ ol {
     flex-direction: column;
     color: white;
     text-align: center;
-    transition: all 0.5s ease; }
+    transition: all 0.5s ease;
+    z-index: 10; }
   .activo {
     left: 0%; }
   .hide {
     display: none; }
-  .navbar__link {
+  .navbarF__link {
     color: black;
     padding: 2rem;
     font-size: 1.5em; }
-  .navbar__li {
+  .navbarF__li {
     margin: 5rem; }
-  .navbar__bars {
+  .navbarF__bars {
     display: block; }
-  .navbar__cancel {
+  .navbarF__cancel {
     display: block; } }
 
 @media (max-width: 487px) {
-  .navbar__list {
+  .navbarF__list {
     position: fixed;
-    background-color: #313131;
+    background-color: white;
     height: 100vh;
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: black;
     text-align: center; }
-  .navbar__logoW {
+  .navbarF__logoW {
     height: 3em; } }
 
 .tituloGB {
@@ -116,6 +143,26 @@ ol {
   color: black;
   letter-spacing: 5px;
   font-family: Josefin Sans; }
+
+.tituloMB {
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 5px;
+  font-family: Josefin Sans;
+  text-align: center;
+  margin-top: 10rem; }
+
+.tituloMT {
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 5px;
+  font-family: Josefin Sans;
+  text-align: center;
+  margin-top: 15rem; }
 
 .Subinfo {
   font-size: 2em;
@@ -198,20 +245,45 @@ ol {
     .cardProductos__btn:hover {
       color: gold; }
 
+.tarjeta {
+  margin: 5rem;
+  height: auto;
+  width: 18rem;
+  text-align: center; }
+
+.personaCard {
+  margin: 5px;
+  border: solid lightgray 1px;
+  border-radius: 20px; }
+
+.imagenCard {
+  height: 300px;
+  width: auto;
+  margin: 10px;
+  border-radius: 150px; }
+
+.tituloCard {
+  text-align: center;
+  font-size: 3em; }
+
+.comentarioCard {
+  text-align: center;
+  font-size: 2em; }
+
 /*============slider============*/
-.slider {
+.sliderJ {
   width: 100%;
   height: 100vh;
   display: flex; }
-  .slider__ul {
+  .sliderJ__ul {
     width: 100%; }
-  .slider__hero {
+  .sliderJ__hero {
     height: 100vh;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
     object-position: right; }
-  .slider__txt {
+  .sliderJ__txt {
     position: absolute;
     width: 45%;
     height: 50%;
@@ -226,7 +298,7 @@ ol {
     z-index: 1;
     margin: 6rem 6rem;
     flex-wrap: wrap; }
-  .slider__paginas {
+  .sliderJ__paginas {
     position: absolute;
     top: 90%;
     display: flex;
@@ -262,7 +334,7 @@ li {
   display: block; }
 
 @media (max-width: 568px) {
-  .slider {
+  .sliderJ {
     display: none; }
   .banner {
     display: flex;
@@ -276,9 +348,40 @@ li {
 
 .contenedorG {
   display: flex;
-  height: 100vh;
+  height: auto;
   width: 100%;
   flex-wrap: wrap; }
+
+.contenedorM {
+  display: flex;
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: flex-start; }
+
+.contenedorC {
+  width: 100%;
+  box-sizing: border-box; }
+
+.contenedorT {
+  height: auto;
+  width: 50%;
+  margin: 3rem; }
+
+#productos {
+  margin-bottom: 10rem; }
+
+.contenedorTestimonios {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: auto;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 50px; }
 
 .btnNegro {
   background-color: black;
@@ -306,7 +409,7 @@ li {
     font-family: "Poppins", sans-serif; }
 
 footer {
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   background-color: black;
   display: flex;
@@ -358,3 +461,22 @@ footer {
     border: solid 2px white; }
     .social__icon:hover {
       background-color: black; }
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid orangered;
+  color: black; }
+
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+.imgfluida {
+  height: 50%;
+  width: auto; }

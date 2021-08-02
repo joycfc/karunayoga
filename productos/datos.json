@@ -1,0 +1,20 @@
+[
+    {
+        "imagen": "/images/foto1.jpg",
+        "titulo": "Bernat Acevedo",
+        "comentario": "Muy buen producto!!!",
+        "id":  "001"       
+    },
+    {
+        "imagen": "/images/foto2.jpg",
+        "titulo": "Gaspar Dominguez",
+        "comentario": "Me encanto!!!",
+        "id":  "002"       
+    },
+    {
+        "imagen": "/images/foto3.jpg",
+        "titulo": "Helena Lozano",
+        "comentario": "Muy Buena atencion!!!",
+        "id":  "003"       
+    }
+]

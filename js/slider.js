@@ -3,29 +3,29 @@
 $(document).ready(function () {
 
     //me dice cuantas imagenes hay para crear los botones de los slides
-    let imgItems = $(`.slider__li`).length;
+    let imgItems = $(`.sliderJ__li`).length;
 
     // variable de la posicion de las imagenes
     let imgNumber = 1;
 
     for (i = 0; i < imgItems; i++) {
-        $('.slider__paginas').append('<li><span><i class="punto fas fa-circle"></i></span></li>');
+        $('.sliderJ__paginas').append('<li><span><i class="punto fas fa-circle"></i></span></li>');
     }
 
     //ocultamos las imagenes
-    $('.slider__li').hide();
+    $('.sliderJ__li').hide();
 
     // mostramos la primera imagen del Li
-    $('.slider__li:first').show();
+    $('.sliderJ__li:first').show();
 
     //le damos estilos al primer item del slide
-    $('.slider__paginas li:first').css({
+    $('.sliderJ__paginas li:first').css({
         'color': '#ffffff'
     });
 
     //funciones para controlar el slide
 
-    $('.slider__paginas li').click(paginas);
+    $('.sliderJ__paginas li').click(paginas);
     $('.derecha span').click(next);
     $('.izquierda span').click(prev);
 
@@ -38,12 +38,12 @@ $(document).ready(function () {
         //selecciona la posicion de las imagenes con el click 
         var seleccion = $(this).index() + 1;
 
-        $('.slider__li').hide();
+        $('.sliderJ__li').hide();
 
-        $('.slider__li:nth-child(' + seleccion + ')').fadeIn();
+        $('.sliderJ__li:nth-child(' + seleccion + ')').fadeIn();
 
         // cambia de color la seleccion
-        $('.slider__paginas li').css({
+        $('.sliderJ__paginas li').css({
             'color': '#ffffff'
         });
 
@@ -64,16 +64,16 @@ $(document).ready(function () {
             imgNumber++;
         }
 
-        $('.slider__paginas li').css({
+        $('.sliderJ__paginas li').css({
             'color': '#ffffff'
         });
-        $('.slider__paginas li:nth-child(' + imgNumber + ')').css({
+        $('.sliderJ__paginas li:nth-child(' + imgNumber + ')').css({
             'color': 'brown'
         });
 
 
-        $('.slider__li').hide();
-        $('.slider__li:nth-child(' + imgNumber + ')').fadeIn();
+        $('.sliderJ__li').hide();
+        $('.sliderJ__li:nth-child(' + imgNumber + ')').fadeIn();
 
 
 
@@ -91,16 +91,16 @@ $(document).ready(function () {
             imgNumber--;
         }
 
-        $('.slider__paginas li').css({
+        $('.sliderJ__paginas li').css({
             'color': '#ffffff'
         });
-        $('.slider__paginas li:nth-child(' + imgNumber + ')').css({
+        $('.sliderJ__paginas li:nth-child(' + imgNumber + ')').css({
             'color': 'brown'
         });
 
 
-        $('.slider__li').hide();
-        $('.slider__li:nth-child(' + imgNumber + ')').fadeIn();
+        $('.sliderJ__li').hide();
+        $('.sliderJ__li:nth-child(' + imgNumber + ')').fadeIn();
 
     }
 
