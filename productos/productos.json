@@ -1,74 +1,74 @@
 [
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 1",
-    "precio": 1000.0,
+    "imagen": "./../images/img1.jpg",
+    "titulo": "Programa Bases del Vinyasa Yoga",
+    "precio": 7500.00,
     "id": "001"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 2",
-    "precio": 1000.0,
+    "imagen": "./../images/img2.jpg",
+    "titulo": "Programa de Fit+Yoga",
+    "precio": 7500.00,
     "id": "002"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 3",
-    "precio": 1000.0,
+    "imagen": "./../images/img3.jpg",
+    "titulo": "Programa de Iniciación al Yoga",
+    "precio": 10500.00,
     "id": "003"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 4",
-    "precio": 1000.0,
+    "imagen": "./../images/img4.jpg",
+    "titulo": "Programa de Iniciación a la meditación",
+    "precio": 5000.00,
     "id": "004"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 5",
-    "precio": 1000.0,
+    "imagen": "./../images/img5.jpg",
+    "titulo": "Esterilla YogaYe PRO Mat - 4,5 mm",
+    "precio": 3738.00,
     "id": "005"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 6",
-    "precio": 1000.0,
+    "imagen": "./../images/img6.jpg",
+    "titulo": "Esterilla de Yoga Phoenix",
+    "precio": 7476.00,
     "id": "006"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 7",
-    "precio": 1000.0,
+    "imagen": "./../images/img7.jpg",
+    "titulo": "Jade Yoga Mat Harmony Pro",
+    "precio": 7476.00,
     "id": "007"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 8",
-    "precio": 1000.0,
+    "imagen": "./../images/img8.jpg",
+    "titulo": "Jade Travel Mat - 3 mm caucho natural",
+    "precio": 3738.00,
     "id": "008"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 9",
-    "precio": 1000.0,
+    "imagen": "./../images/img9.jpg",
+    "titulo": "Zafu Clásico ECO",
+    "precio": 2750.00,
     "id": "009"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 10",
-    "precio": 1000.0,
+    "imagen": "./../images/img10.jpg",
+    "titulo": "Zafu Rondo ECO ¨Flor de la Vida¨",
+    "precio": 6580.00,
     "id": "010"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 11",
-    "precio": 1000.0,
+    "imagen": "./../images/img11.jpg",
+    "titulo": "Bloque de Yoga de Corcho",
+    "precio": 1200.00,
     "id": "011"
   },
   {
-    "imagen": "./../images/prueba.png",
-    "titulo": "producto 12",
-    "precio": 1000.0,
+    "imagen": "./../images/img12.jpg",
+    "titulo": "Bolsa para Esterilla de Yoga Asana Bag",
+    "precio": 6540.00,
     "id": "012"
   }
 ]

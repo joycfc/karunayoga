@@ -1,18 +1,21 @@
 // productos 
 
+// HACEMOS EL LlAMADO DE LOS COMENTARIOS
 let jsonLocal = './../productos/datos.json';
 
 $.getJSON(jsonLocal, function (data, status) {
 
     console.log(data);
 
-    let misProductos = data     
+    let comentarios = data     
 
-    cardProductos(misProductos)
+    cardProductos(comentarios);
 
 })
 
+// SELECCIONAMOS EL CONTENEDOR DONDE SE VAN A PINTAR LOS COMENTARIOS
 const section = document.querySelector('.contenedorTestimonios');
+// pintamos los comentarios enel DOM
 
 function cardProductos(array) {
 
